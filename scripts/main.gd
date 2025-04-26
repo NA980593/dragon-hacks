@@ -4,7 +4,7 @@ func next_patient():
 	print("next patient")
 
 func open_book():
-	print("open book")
+	$BookUI.open_book()
 
 
 func _on_book_open_book() -> void:

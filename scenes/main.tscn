@@ -1,21 +1,25 @@
-[gd_scene load_steps=5 format=3 uid="uid://dsgp82a0w11pq"]
+[gd_scene load_steps=6 format=3 uid="uid://dsgp82a0w11pq"]
 
 [ext_resource type="Script" uid="uid://lrr0o8dte1cx" path="res://scripts/main.gd" id="1_o5qli"]
 [ext_resource type="PackedScene" uid="uid://c62opuch6r1sp" path="res://scenes/book.tscn" id="2_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://c3w1455tmli2c" path="res://scenes/patient.tscn" id="2_sugp2"]
 [ext_resource type="PackedScene" uid="uid://bmflsvcobbely" path="res://scenes/next_patient_button.tscn" id="4_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://dn06ogq28vkvw" path="res://scenes/book_ui.tscn" id="5_tbgi4"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_o5qli")
 
 [node name="Patient" parent="." instance=ExtResource("2_sugp2")]
-position = Vector2(503, 300)
+position = Vector2(489, 255)
 
 [node name="Book" parent="." instance=ExtResource("2_0wfyh")]
 position = Vector2(1036, 568)
 
 [node name="NextPatientButton" parent="." instance=ExtResource("4_jyhfs")]
-position = Vector2(697, 446)
+position = Vector2(329, 569)
+
+[node name="BookUI" parent="." instance=ExtResource("5_tbgi4")]
+visible = false
 
 [connection signal="open_book" from="Book" to="." method="_on_book_open_book"]
 [connection signal="next_patient" from="NextPatientButton" to="." method="_on_next_patient_button_next_patient"]
