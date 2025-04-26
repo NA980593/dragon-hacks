@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cd25agxxlxmv6"
-path="res://.godot/imported/Flux_Schnell_A_cartoon_illustration_of_a_weary_adult_either_ma_1.jpg-14bbe7bf01af0a72dce38edabdce9b67.ctex"
+uid="uid://bwwaaa68ewbfj"
+path="res://.godot/imported/doctor_office.jpg-c1b93b6b7f5373efc1da00969d97c5df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scripts/Flux_Schnell_A_cartoon_illustration_of_a_weary_adult_either_ma_1.jpg"
-dest_files=["res://.godot/imported/Flux_Schnell_A_cartoon_illustration_of_a_weary_adult_either_ma_1.jpg-14bbe7bf01af0a72dce38edabdce9b67.ctex"]
+source_file="res://assets/doctor_office.jpg"
+dest_files=["res://.godot/imported/doctor_office.jpg-c1b93b6b7f5373efc1da00969d97c5df.ctex"]
 
 [params]
 
